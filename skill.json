@@ -1,0 +1,36 @@
+{
+  "name": "abandoned-cart-recovery-skill",
+  "version": "1.0.0",
+  "description": "Generate an automated 3-step abandoned cart recovery email sequence customized by cart value and product context.",
+  "author": "alphaparkinc",
+  "category": "retention",
+  "tags": [
+    "cart-recovery",
+    "emails",
+    "conversion",
+    "retention",
+    "e-commerce"
+  ],
+  "inputs": {
+    "customer_name": {
+      "type": "string",
+      "description": "Customer name."
+    },
+    "cart_total": {
+      "type": "number",
+      "description": "Abandoned cart total in USD."
+    },
+    "abandoned_items": {
+      "type": "array",
+      "description": "List of item names in the cart."
+    }
+  },
+  "outputs": {
+    "sequence": {
+      "type": "array",
+      "description": "3 recovery emails with subject lines, timing, and copy templates."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
