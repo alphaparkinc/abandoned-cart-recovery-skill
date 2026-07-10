@@ -1,5 +1,5 @@
 {
-  "name": "abandoned-cart-recovery-skill",
+  "name": "genpark-abandoned-cart-recovery-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Generate an automated 3-step abandoned cart recovery email sequence customized by cart value and product context.",
   "author": "genpark",
