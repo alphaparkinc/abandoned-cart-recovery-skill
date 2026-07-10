@@ -1,4 +1,4 @@
-# abandoned-cart-recovery-skill
+# genpark-abandoned-cart-recovery-skill
 
 > **GenPark AI Agent Skill** -- Abandoned cart 3-step sequence builder.
 
